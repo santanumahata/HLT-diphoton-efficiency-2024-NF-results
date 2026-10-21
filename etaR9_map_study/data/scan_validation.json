@@ -1,0 +1,45 @@
+{
+ "entries": {
+  "seed": 159861517,
+  "unseed": 159861517
+ },
+ "mismatch_old": {
+  "seed": 0,
+  "unseed": 0
+ },
+ "mismatch_new": {
+  "seed": 0,
+  "unseed": 0
+ },
+ "selected": {
+  "seed/normal/EB_R9_0p50to0p55": 610203,
+  "seed/normal/EB_R9_0p55to0p85": 10623354,
+  "seed/normal/EB_R9gt0p85": 27285255,
+  "seed/normal/EE_R9_0p90to0p93": 920092,
+  "seed/normal/EE_R9gt0p93": 8643484,
+  "seed/fullPath/EB_R9_0p50to0p55": 531056,
+  "seed/fullPath/EB_R9_0p55to0p85": 9574234,
+  "seed/fullPath/EB_R9gt0p85": 25105982,
+  "seed/fullPath/EE_R9_0p90to0p93": 754550,
+  "seed/fullPath/EE_R9gt0p93": 7138411,
+  "unseed/normal/EB_R9_0p50to0p55": 773578,
+  "unseed/normal/EB_R9_0p55to0p85": 12086789,
+  "unseed/normal/EB_R9gt0p85": 29556173,
+  "unseed/normal/EE_R9_0p90to0p93": 978124,
+  "unseed/normal/EE_R9gt0p93": 9468312,
+  "unseed/fullPath/EB_R9_0p50to0p55": 705522,
+  "unseed/fullPath/EB_R9_0p55to0p85": 11463542,
+  "unseed/fullPath/EB_R9gt0p85": 28280706,
+  "unseed/fullPath/EE_R9_0p90to0p93": 896032,
+  "unseed/fullPath/EE_R9gt0p93": 8888821
+ },
+ "max_rel_diff_rebuilt_vs_stored": 1.3907472951046884e-08,
+ "mass_window": [
+  60.0,
+  120.0
+ ],
+ "maps": {
+  "old": "/home/santanu/Pictures/crab_2022_2023_2024/MC_R9eta_weights/2024/2024_R9_vs_eta_HggOverDY_presel_vf.root",
+  "new": "/home/santanu/Pictures/crab_2022_2023_2024/MC_R9eta_weights/2024/2024Lowmass_R9_vs_eta_ratio_presel.root"
+ }
+}

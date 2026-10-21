@@ -1,0 +1,28 @@
+{
+ "shape": [
+  25,
+  16
+ ],
+ "range_2023": [
+  0.0,
+  5.627914852749281
+ ],
+ "range_2024": [
+  0.0,
+  5.932000644680022
+ ],
+ "n_zero_2023": 4,
+ "n_zero_2024": 4,
+ "n_zero_both": 0,
+ "ratio_min": 0.0,
+ "ratio_max": 3.7652338954816735,
+ "diff_min": -4.760065354244827,
+ "diff_max": 1.3593947978477814,
+ "mean_abs_diff_all": 0.12227218259261888,
+ "n_cells_analysis": 282,
+ "mean_abs_diff_analysis": 0.07108935515623836,
+ "max_abs_diff_analysis": 1.3593947978477814,
+ "ratio_min_analysis": 0.7006586723081744,
+ "ratio_max_analysis": 1.9112609804747571,
+ "n_ratio_nan_analysis": 0
+}

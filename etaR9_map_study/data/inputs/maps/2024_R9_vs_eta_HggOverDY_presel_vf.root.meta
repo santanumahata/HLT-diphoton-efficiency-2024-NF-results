@@ -1,0 +1,9 @@
+generated_by: diagnostics/2026-07-29_build_r9eta_maps_HggOverDY.ipynb
+git_commit:   no-repo (HLT_2024_lowmass_final is not a git repository)
+inputs:
+  - 1 file(s) H->gamma gamma M-90 MC  (numerator)
+  - 1 file(s) DY->ee MC              (denominator)
+  - first Hgg: /home/santanu/Pictures/crab_2022_2023_2024/hadded_2024/mc/PhotonR9Eta_MC_HtoGG_2024.root
+  - first DY : /home/santanu/Pictures/crab_2022_2023_2024/hadded_2024/mc/PhotonR9Eta_MC_DYtoEE_2024.root
+timestamp:    2026-07-29T19:24:27
+params:       direction=Hgg/DY (target/source), density-normalised, empty-DY cell -> 1; binning 25x16; preselection: EB |eta|<1.4442 R9>=0.5 sieie<0.011; EE 1.566<|eta|<2.5 R9>=0.9 sieie<0.032; H/E<0.08; pt>18.0; applied IDENTICALLY to numerator and denominator
