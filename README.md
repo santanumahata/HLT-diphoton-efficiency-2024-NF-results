@@ -40,7 +40,7 @@ Same schema as the 2023 repo, plus `err_*_png`.
 - `status_pass_*`, `status_fail_*` — fit status of the pass and fail fits.
 - `bkg_syst` = |eff_cms − eff_exp|.
 - `total_unc_hi` = err_hi_cms ⊕ bkg_syst, capped at 1 − eff_cms; `total_unc_lo` = err_lo_cms ⊕ bkg_syst.
-- `fit_plot_cms`, `fit_plot_exp` — GitHub URL of the fit plot each efficiency was read from.
+- `fit_plot_cms`, `fit_plot_exp` — repo path of the fit plot each efficiency was read from.
 
 ## JSON mapping
 
