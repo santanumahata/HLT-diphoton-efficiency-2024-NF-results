@@ -20,7 +20,7 @@ Built by `notebooks/2026-10-21_build_nf_csv_jsons_plots.ipynb`.
 
 - `csvs/hlt_2024_NF_trigger_efficiency_asym_errors.csv` — efficiencies + asymmetric uncertainties (normal selection), 105 rows.
 - `efficiency_plots/` — efficiency vs probe pT, one plot per leg.
-- `fit_plots/{seeded,unseeded}/<category>/sig_bwDscb_bkg_{RooCMSShape,Exponential}/` — tag-and-probe mass-fit plots.
+- `fit_plots/{seeded,unseeded}/<category>/sig_bwDscb_bkg_{RooCMSShape,Exponential}/` — tag-and-probe mass-fit plots. [`fit_plots/README.md`](fit_plots/README.md) lists every efficiency linked to its fit plot ([`fullPath/fit_plots/README.md`](fullPath/fit_plots/README.md) for fullPath).
 - `jsons/2024/Lowmass_{seeded,unseeded}_leg_efficinecy.json` — HiggsDNA `TriggerSF_LM` correctionlib JSONs.
 - `fullPath/` — the same four subtrees for the fullPath selection (`probe_passFullPath == 1`).
 - `notebooks/` — the build notebook.
@@ -40,6 +40,7 @@ Same schema as the 2023 repo, plus `err_*_png`.
 - `status_pass_*`, `status_fail_*` — fit status of the pass and fail fits.
 - `bkg_syst` = |eff_cms − eff_exp|.
 - `total_unc_hi` = err_hi_cms ⊕ bkg_syst, capped at 1 − eff_cms; `total_unc_lo` = err_lo_cms ⊕ bkg_syst.
+- `fit_plot_cms`, `fit_plot_exp` — repo path of the fit plot each efficiency was read from.
 
 ## JSON mapping
 
@@ -58,4 +59,5 @@ Inputs `(SCEta = |ScEta|, r9, pt)`, `flow: clamp`; systematic `nominal` / `up` /
 - Fit status vs stored fit results: 420 / 420 match.
 - CSV efficiencies equal the PNG values: 0 / 105 mismatches per set.
 - correctionlib evaluation of every JSON cell against the CSV: 0 failures in all 4 files.
+- `fit_plot_*` paths and `fit_plots/README.md` links: every target exists and shows the linked efficiency (210 links per set).
 - Each gate is tested against a deliberately broken input.
